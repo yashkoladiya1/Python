@@ -37,12 +37,12 @@ is_student = True
 print("Type of is_student is ",type(is_student))
 
 #4.1 list
-list1 = ["apple","banana","chiku"]
+list1 = ["apple",["banana","chiku"]]
 
 print("Type of list1 is ",type(list1))
 
 #4.2 tuple
-tuple1 = ("apple","banana","chiku")
+tuple1 = ("apple",("banana","chiku"))
 print("Type of tuple1 is ",type(tuple1))
 
 #5 dict
